@@ -26,7 +26,7 @@ public class EmployeeController {
 	}
 	
 	
-	//135465
+	//13546565465
 	@PostMapping("/employeesInsert")
 	public String insertEmployee(@RequestBody trainTable train) {
 	    String sql = "INSERT INTO train_table (stucd, stunname, stufname, stulname) VALUES (?, ?, ?, ?)";
